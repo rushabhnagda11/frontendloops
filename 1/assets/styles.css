@@ -1,0 +1,73 @@
+body {
+    background-color: #8ba5d2;
+    align-items: center;
+    line-height: 19px;
+}
+
+.pricing {
+    width: 900px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing-card:hover{
+    background-color: #f4f4f5;
+ }
+
+a {
+    text-decoration: none;
+}
+
+.pricing-card {
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    width: 70px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.heading {
+    color: #5975cf;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.description {
+    color: #a4aab0;
+    padding-right:40px;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+.price {
+    color: #5975cf; 
+}
+
+.dollar {
+    vertical-align: top;
+    margin-top: 3px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.number {
+    font-size: 35px;
+    font-weight: 500;
+}
