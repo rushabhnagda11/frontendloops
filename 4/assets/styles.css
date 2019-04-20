@@ -33,6 +33,12 @@ body {
     mask-image: url('./img/close.svg');
 }
 
+.card-upper-close:hover {
+    background-color: #ffffff;
+}
+
+
+
 .card-upper-text {
     color:#ffffff;
     font-size: 13px;
@@ -150,10 +156,16 @@ body {
 }
 
 .card-input-bottom-text1 {
+    border:none;
     flex-grow:1;
     font-size: 13px;
     font-weight: 500;
     color:#848584;
+}
+
+.card-input-bottom-text1:focus {
+    outline:none;
+    
 }
 
 .card-input-bottom-text2 {
@@ -161,4 +173,8 @@ body {
     font-size: 15px;
     font-weight: 500;
     color:#7296d3;
+}
+
+a {
+    text-decoration: none;
 }
