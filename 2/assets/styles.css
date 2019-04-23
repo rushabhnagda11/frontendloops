@@ -1,6 +1,7 @@
 body {
     background-image: url('./img/background.jpg');
     font-family: 'roboto';
+    background-size:100%;
 }
 
 .pricing-card {
